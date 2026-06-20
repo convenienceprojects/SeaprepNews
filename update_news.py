@@ -1,16 +1,6 @@
-update_news.py
-
-#!/usr/bin/env python3
-"""
-Seattle Prep Panther — Autonomous News Updater
-Fetches the latest news from Seattle Prep sources, builds a clean
-news file the website reads. Designed to run automatically on a schedule.
-"""
-
 import json, re, sys, html, datetime, urllib.request, xml.etree.ElementTree as ET
 from pathlib import Path
 
-# Add or remove sources here. Each is a name + RSS URL + icon.
 SOURCES = [
     {"name": "The Seattle Prep Panther", "type": "panther",
      "rss": "https://seapreppanther.org/feed/rss/", "icon": "📰"},
@@ -83,18 +73,18 @@ def parse_rss(xml_bytes, source):
     return stories
 
 def build():
-    print(f"[{datetime.datetime.now():%Y-%m-%d %H:%M}] Starting news update…")
+    print(f"[{datetime.datetime.now():%Y-%m-%d %H:%M}] Starting news update")
     all_stories = []
     local = None
     if "--local" in sys.argv:
         local = sys.argv[sys.argv.index("--local") + 1]
     for src in SOURCES:
-        print(f"  • {src['name']}")
+        print(f"  - {src['name']}")
         data = Path(local).read_bytes() if local else fetch(src["rss"])
         if not data:
             continue
         got = parse_rss(data, src)
-        print(f"      → {len(got)} stories")
+        print(f"      -> {len(got)} stories")
         all_stories.extend(got)
     seen, unique = set(), []
     for s in sorted(all_stories, key=lambda x: x["date_iso"], reverse=True):
@@ -110,7 +100,7 @@ def build():
         "stories": unique,
     }
     Path(OUTPUT_JSON).write_text(json.dumps(payload, indent=2))
-    print(f"  ✓ wrote {len(unique)} stories to {OUTPUT_JSON}")
+    print(f"  wrote {len(unique)} stories to {OUTPUT_JSON}")
     return payload
 
 if __name__ == "__main__":
