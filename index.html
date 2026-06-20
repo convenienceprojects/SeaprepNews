@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seattle Prep — Panther Daily Digest</title>
+<meta name="description" content="Daily news from Seattle Preparatory School, automatically gathered from The Seattle Prep Panther, seaprep.org, and Panther Athletics.">
+<style>
+  :root{
+    --navy:#0C1445; --blue:#1a4fcf; --ink:#111827; --body:#4B5563;
+    --muted:#9CA3AF; --line:#E5E7EB; --bg:#F0F2F5; --card:#fff;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,system-ui,sans-serif;
+       background:var(--bg);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  /* Header */
+  header{background:linear-gradient(135deg,#0C1445 0%,#1a2a7a 50%,#1a4fcf 100%)}
+  .wrap{max-width:820px;margin:0 auto;padding:0 16px}
+  .head-inner{display:flex;align-items:center;gap:14px;padding:22px 0 18px}
+  .logo{width:48px;height:48px;border-radius:12px;background:rgba(255,255,255,.12);
+        border:1px solid rgba(255,255,255,.18);display:flex;align-items:center;
+        justify-content:center;font-size:26px;flex-shrink:0}
+  .eyebrow{font-size:10px;color:rgba(255,255,255,.5);font-weight:800;
+           letter-spacing:.14em;text-transform:uppercase}
+  .title{font-size:22px;font-weight:800;color:#fff;letter-spacing:-.025em;line-height:1.15}
+  .subtitle{font-size:11px;color:rgba(255,255,255,.4);margin-top:1px}
+  .updated{margin-left:auto;text-align:right;font-size:11px;color:rgba(255,255,255,.5);max-width:150px}
+  .badge{display:inline-block;margin-top:5px;font-size:10px;font-weight:700;color:#4ade80;
+         background:rgba(74,222,128,.1);border:1px solid rgba(74,222,128,.25);
+         padding:2px 8px;border-radius:20px;letter-spacing:.05em}
+  /* Controls */
+  .controls{padding:18px 16px 0}
+  .search{position:relative;margin-bottom:12px}
+  .search input{width:100%;padding:11px 14px 11px 38px;border-radius:10px;border:1px solid var(--line);
+                font-size:14px;color:var(--ink);background:#fff;outline:none;
+                box-shadow:0 1px 3px rgba(0,0,0,.05)}
+  .search input:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(26,79,207,.12)}
+  .search .icon{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:var(--muted)}
+  .filters{display:flex;gap:7px;overflow-x:auto;padding-bottom:6px;margin-bottom:6px}
+  .chip{padding:7px 14px;border-radius:20px;border:none;background:#fff;color:var(--body);
+        font-size:12px;font-weight:600;cursor:pointer;white-space:nowrap;
+        box-shadow:0 1px 3px rgba(0,0,0,.07);font-family:inherit}
+  .chip[aria-pressed="true"]{background:var(--navy);color:#fff}
+  .chip:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+  /* Cards */
+  main{max-width:820px;margin:0 auto;padding:6px 16px 24px}
+  .card{background:var(--card);border-radius:14px;border:1px solid var(--line);
+        padding:18px 20px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,.05);
+        display:flex;gap:14px;align-items:flex-start}
+  .card.urgent{border-color:#FECACA;box-shadow:0 0 0 2px rgba(239,68,68,.08),0 1px 4px rgba(0,0,0,.05)}
+  .cat-icon{width:42px;height:42px;border-radius:10px;flex-shrink:0;display:flex;
+            align-items:center;justify-content:center;font-size:19px}
+  .card-body{flex:1;min-width:0}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:5px}
+  .tag{font-size:10px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;
+       padding:2px 9px;border-radius:20px}
+  .tag-date{font-size:11px;color:var(--muted);margin-left:auto}
+  h2.headline{font-size:15px;font-weight:700;color:var(--ink);line-height:1.35;margin-bottom:3px}
+  .byline{font-size:11px;color:var(--muted);font-style:italic;margin-bottom:6px}
+  .text{font-size:13px;color:var(--body);line-height:1.65}
+  .more{background:none;border:none;color:var(--blue);font-size:12px;font-weight:600;
+        cursor:pointer;padding:4px 0 0;font-family:inherit}
+  .foot{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:10px}
+  .src{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:600;
+       padding:2px 9px;border-radius:12px;text-decoration:none}
+  .src-link{font-size:11px;color:var(--muted);text-decoration:none;margin-left:auto;white-space:nowrap}
+  .empty{background:#fff;border:1px solid var(--line);border-radius:14px;padding:48px 24px;text-align:center}
+  footer{text-align:center;font-size:11px;color:var(--muted);padding:16px;line-height:1.8}
+  footer a{color:var(--blue);text-decoration:none;font-weight:600}
+  @media (prefers-reduced-motion:no-preference){.card{transition:box-shadow .2s}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="head-inner">
+      <div class="logo">🐾</div>
+      <div>
+        <div class="eyebrow">Seattle Preparatory School</div>
+        <div class="title">Panther Daily Digest</div>
+        <div class="subtitle">The Panther · seaprep.org · @seapreppanthers · @seaprepsports</div>
+      </div>
+      <div class="updated">
+        <div id="updated">Loading…</div>
+        <span class="badge">● AUTO-UPDATED</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap controls">
+  <div class="search">
+    <span class="icon">🔍</span>
+    <input id="search" type="search" placeholder="Search stories, names, topics…" aria-label="Search stories">
+  </div>
+  <div class="filters" id="filters" role="group" aria-label="Filter by category"></div>
+</div>
+
+<main id="feed" aria-live="polite"></main>
+
+<footer>
+  Stories gathered automatically from Seattle Prep's public sources.<br>
+  <a href="https://seapreppanther.org" target="_blank" rel="noopener">seapreppanther.org</a> ·
+  <a href="https://www.seaprep.org" target="_blank" rel="noopener">seaprep.org</a> ·
+  <a href="https://instagram.com/seaprepsports" target="_blank" rel="noopener">@seaprepsports</a> ·
+  <a href="https://instagram.com/seapreppanthers" target="_blank" rel="noopener">@seapreppanthers</a>
+</footer>
+
+<script>
+// ── Verified fallback data (used if news.json is missing/empty) ──────────────
+const FALLBACK = [{"headline": "Yearbook Seniors Leave Their Echo Behind", "byline": "Mason Beckett, Staff Writer", "date": "Jun 3, 2026", "category": "Prep Life", "source": "The Seattle Prep Panther", "sourceType": "panther", "sourceIcon": "📰", "link": "https://seapreppanther.org/11410/prep-life/the-echo-seniors-will-leave-behind-on-yearbook/", "body": "Editors-in-Chief Kayli Tran and Bella Huynh wrapped up the 2025–26 yearbook, with the final edition now heading into students' hands. Senior families submitted baby photos and messages for a tribute section dedicated to the graduating class."}, {"headline": "Why Seniors Should Consider the Alumni Service Corps", "byline": "Gracie Harkins & Kylie Barclay", "date": "Jun 1, 2026", "category": "Prep Life", "source": "The Seattle Prep Panther", "sourceType": "panther", "sourceIcon": "📰", "link": "https://seapreppanther.org/11308/prep-life/back-to-the-classroom-why-seniors-should-consider-becoming-an-asc/", "body": "The Alumni Service Corps (ASC) program gives graduating seniors a chance to return to Prep after graduation as teaching assistants and mentors. Applications for the 2026–27 cohort are open to the Class of 2026."}, {"headline": "Panthers Fall to Lincoln in Inaugural WIAA Flag Football Final, 21–14", "byline": "VarsityWA News", "date": "Feb 14, 2026", "category": "Athletics", "source": "@seaprepsports", "sourceType": "athletics", "sourceIcon": "🏆", "link": "https://www.varsitywanews.com/p/gallery-lincoln-of-tacoma-beats-seattle", "body": "Seattle Prep's girls flag football team reached the inaugural WIAA Class 3A State Championship at Federal Way Memorial Stadium, falling 21–14 to Lincoln of Tacoma. QB Amelie LaPorte-Manahan led the Panthers, with Estee Swan scoring both Prep touchdowns."}, {"headline": "Semester 2 Finals June 4–9 · Last Day of Classes June 9", "byline": "seaprep.org Calendar", "date": "Jun 4–9, 2026", "category": "Calendar", "source": "seaprep.org", "sourceType": "calendar", "sourceIcon": "🗓️", "link": "https://www.seaprep.org/calendar", "body": "Semester 2 Final Assessments run June 4–9, with Tuesday June 9 the last day of classes. June 10 is a Faculty/Staff Meeting Day and June 11 a Correction Day — no classes either day."}, {"headline": "Prep Searching for New Principal — Start Date July 2026", "byline": "seaprep.org", "date": "2025–26", "category": "News", "source": "seaprep.org", "sourceType": "calendar", "sourceIcon": "🗓️", "link": "https://www.seaprep.org/about-prep/principal-search", "body": "Seattle Prep has launched a formal search for its next principal with a target start date of July 1, 2026, facilitated by Lester Consulting Group. The incoming principal will report to President Robert T. Jordan."}];
+
+const CATEGORIES = {
+  "Prep Life":{c:"#EC4899",i:"🐾"}, "Features":{c:"#8B5CF6",i:"🎨"},
+  "Athletics":{c:"#10B981",i:"🏆"}, "Calendar":{c:"#EF4444",i:"🗓️"},
+  "News":{c:"#3B82F6",i:"📢"}, "Opinion":{c:"#F59E0B",i:"💬"},
+  "Entertainment":{c:"#06B6D4",i:"🎬"}, "Humor":{c:"#F97316",i:"😄"}
+};
+const SRC = {
+  panther:{bg:"#EFF6FF",bd:"#BFDBFE",t:"#1D4ED8"},
+  athletics:{bg:"#F0FDF4",bd:"#BBF7D0",t:"#15803D"},
+  calendar:{bg:"#FFF7ED",bd:"#FED7AA",t:"#C2410C"},
+  website:{bg:"#F5F3FF",bd:"#DDD6FE",t:"#6D28D9"}
+};
+
+let STORIES = [], filter = "All", query = "";
+
+function esc(s){const d=document.createElement("div");d.textContent=s||"";return d.innerHTML;}
+
+function render(){
+  const feed = document.getElementById("feed");
+  const q = query.toLowerCase();
+  const list = STORIES.filter(s=>{
+    const mC = filter==="All" || s.category===filter;
+    const mQ = !q || (s.headline+s.body+(s.byline||"")).toLowerCase().includes(q);
+    return mC && mQ;
+  });
+
+  if(!list.length){
+    feed.innerHTML = '<div class="empty"><div style="font-size:34px">🔍</div>'+
+      '<div style="font-weight:700;margin-top:8px">No stories match</div>'+
+      '<div style="color:#9CA3AF;font-size:13px;margin-top:4px">Try another keyword or category</div></div>';
+    return;
+  }
+
+  feed.innerHTML = list.map((s,idx)=>{
+    const meta = CATEGORIES[s.category] || {c:"#6B7280",i:"📌"};
+    const sc = SRC[s.sourceType] || SRC.website;
+    const long = (s.body||"").length > 165;
+    const short = long ? esc(s.body.slice(0,165))+"…" : esc(s.body||"");
+    return `<article class="card${s.urgent?' urgent':''}">
+      <div class="cat-icon" style="background:${meta.c}14">${meta.i}</div>
+      <div class="card-body">
+        <div class="tags">
+          <span class="tag" style="color:${meta.c};background:${meta.c}12">${esc(s.category)}</span>
+          ${s.urgent?'<span class="tag" style="color:#EF4444;background:#FEE2E2">⚡ Urgent</span>':''}
+          <span class="tag-date">${esc(s.date)}</span>
+        </div>
+        <h2 class="headline">${esc(s.headline)}</h2>
+        <div class="byline">${esc(s.byline||s.source)}</div>
+        <p class="text" id="t${idx}">${short}</p>
+        ${long?`<button class="more" data-full="${esc(s.body)}" data-short="${short}" data-target="t${idx}">Read more ↓</button>`:''}
+        <div class="foot">
+          <span class="src" style="background:${sc.bg};border:1px solid ${sc.bd};color:${sc.t}">${s.sourceIcon||"📰"} ${esc(s.source)}</span>
+          <a class="src-link" href="${esc(s.link)}" target="_blank" rel="noopener">Source →</a>
+        </div>
+      </div>
+    </article>`;
+  }).join("");
+
+  feed.querySelectorAll(".more").forEach(b=>{
+    b.addEventListener("click",()=>{
+      const t=document.getElementById(b.dataset.target);
+      const open=b.textContent.startsWith("Read");
+      t.innerHTML=open?b.dataset.full:b.dataset.short;
+      b.textContent=open?"Show less ↑":"Read more ↓";
+    });
+  });
+}
+
+function buildFilters(){
+  const cats=["All",...new Set(STORIES.map(s=>s.category))];
+  const f=document.getElementById("filters");
+  f.innerHTML=cats.map(c=>{
+    const m=CATEGORIES[c];
+    const n=c==="All"?STORIES.length:STORIES.filter(s=>s.category===c).length;
+    return `<button class="chip" aria-pressed="${c===filter}" data-cat="${esc(c)}">${c==="All"?"All":(m?m.i+" ":"")+esc(c)} (${n})</button>`;
+  }).join("");
+  f.querySelectorAll(".chip").forEach(b=>{
+    b.addEventListener("click",()=>{filter=b.dataset.cat;buildFilters();render();});
+  });
+}
+
+function start(data){
+  STORIES = (data && data.stories && data.stories.length) ? data.stories : FALLBACK;
+  document.getElementById("updated").textContent =
+    (data && data.updated_label) ? "Updated "+data.updated_label : "Showing latest stories";
+  buildFilters(); render();
+}
+
+// Load the auto-generated news.json; fall back gracefully if unavailable.
+fetch("news.json",{cache:"no-store"})
+  .then(r=>r.ok?r.json():Promise.reject())
+  .then(start)
+  .catch(()=>start(null));
+
+document.getElementById("search").addEventListener("input",e=>{query=e.target.value;render();});
+</script>
+</body>
+</html>
