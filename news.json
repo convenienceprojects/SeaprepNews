@@ -1,8 +1,44 @@
 {
-  "updated": "2026-10-04T17:12:07.205408",
-  "updated_label": "October 4, 2026 at 5:12 PM",
+  "updated": "2026-10-06T18:42:09.793074",
+  "updated_label": "October 6, 2026 at 6:42 PM",
   "count": 10,
   "stories": [
+    {
+      "headline": "Enticing Concerts Bring Energy to Seattle this Fall",
+      "body": "",
+      "byline": "Danica Singian, Staff",
+      "category": "News",
+      "source": "The Seattle Prep Panther",
+      "sourceType": "panther",
+      "sourceIcon": "\ud83d\udcf0",
+      "link": "https://seapreppanther.org/11483/multimedia/graphics/enticing-concerts-bring-energy-to-seattle-this-fall/",
+      "date_iso": "2026-10-06T17:18:15+00:00",
+      "date": "Oct 6, 2026"
+    },
+    {
+      "headline": "Leading with Grace",
+      "body": "ASB plays a vital role in the day-to-day life of Prep students. Leading ASB this year as class president is Grace Bailey \u201927. Bailey is a member of Pulse, Panther Pack, and of course, ASB. Bailey is bringing a positive mindset and optimistic approach to this era of ASB. Bailey said \u201c[I am] working to...",
+      "byline": "Charlotte Fleming and Mimi Rubin",
+      "category": "Prep Life",
+      "source": "The Seattle Prep Panther",
+      "sourceType": "panther",
+      "sourceIcon": "\ud83d\udcf0",
+      "link": "https://seapreppanther.org/11488/prep-life/leading-with-grace/",
+      "date_iso": "2026-10-06T17:10:18+00:00",
+      "date": "Oct 6, 2026"
+    },
+    {
+      "headline": "Homecoming 101",
+      "body": "Homecoming can be an opportunity for fun times, school spirit, and of course a lot of dancing for both upper and under-classmen. However, it involves much more than just that. From careful preparation made by ASB, to making sure everything works smoothly, to decide on a theme and find the perfect dress or outfit to...",
+      "byline": "Tatum Townes and Noel Congdon",
+      "category": "Prep Life",
+      "source": "The Seattle Prep Panther",
+      "sourceType": "panther",
+      "sourceIcon": "\ud83d\udcf0",
+      "link": "https://seapreppanther.org/11493/prep-life/homecoming-101/",
+      "date_iso": "2026-10-01T16:02:11+00:00",
+      "date": "Oct 1, 2026"
+    },
     {
       "headline": "Student Spotlight: Margot Ebel\u2019s Outstanding Service at Aaron\u2019s Place",
       "body": "While many students find themselves exhausted after a jam-packed day of school, sports, and social life, Margot Ebel \u201927, finds time every Thursday to volunteer at the local service organization, Aaron\u2019s Place. Established in 2004, Aaron\u2019s Place is a day program for children and adults living with developmental and physical disabilities. Ebel, who volunteers at the Greenlake branch, said, \u201cThe location I volunteer at is a house with only adults. There are two houses next to each other and the one I volunteer at has around eight residents and four teachers\u201d A typical volunteer shift for Ebel includes playing cards, board games, reading books, solving puzzles, and drawing with residents and teachers. When Ebel started volunteering at Aaron\u2019s Place, it took some time to get acquainted with the environment and people there. \u201cI was...",
@@ -85,42 +121,6 @@
       "sourceIcon": "\ud83d\udcf0",
       "link": "https://seapreppanther.org/11374/feature/seniors-at-work/",
       "date_iso": "2026-06-02T03:15:24+00:00",
-      "date": "Jun 2, 2026"
-    },
-    {
-      "headline": "Leaving Behind the Athlete in \u201cStudent-Athlete\u201d",
-      "body": "Many students at Seattle Prep devote time, energy and money into sports. Sports are awesome- they create goals for you, center you, provide competition, keep you in check but also provide feelings of excitement and exhilaration. But what happens when those long-lasting passions fade? When nothing feels the same anymore and you realize this is...",
-      "byline": "Caroline Ault, Staff Writer",
-      "category": "Athletics",
-      "source": "The Seattle Prep Panther",
-      "sourceType": "panther",
-      "sourceIcon": "\ud83d\udcf0",
-      "link": "https://seapreppanther.org/11354/sports/leaving-behind-the-athlete-in-student-athlete/",
-      "date_iso": "2026-06-02T03:14:46+00:00",
-      "date": "Jun 2, 2026"
-    },
-    {
-      "headline": "The Blue-Collar Revolution",
-      "body": "While many students assume college after high school is the only way to gain success and a stable job, current research suggests that there is now an increased interest in trade schools as the result of AI, and the fear that many corporate jobs that mostly require a 4-year bachelor\u2019s degree will be replaced. Trade...",
-      "byline": "Soliana Fishatsion, Staff Writer",
-      "category": "Features",
-      "source": "The Seattle Prep Panther",
-      "sourceType": "panther",
-      "sourceIcon": "\ud83d\udcf0",
-      "link": "https://seapreppanther.org/11346/feature/the-blue-collar-revolution/",
-      "date_iso": "2026-06-02T03:14:34+00:00",
-      "date": "Jun 2, 2026"
-    },
-    {
-      "headline": "Living the Magis: Mrs. Kramer\u2019s Next Step in Jesuit Education and Leadership",
-      "body": "It can be easy to imagine teachers as people who have it all together and are settled into a career they\u2019ll stay in for decades. But for one longtime Seattle Prep educator, that assumption doesn\u2019t quite hold true. After more than 20 years in education, Mrs. Kramer is preparing to take on a new role...",
-      "byline": "Faith Adams, Staff Writer",
-      "category": "Prep Life",
-      "source": "The Seattle Prep Panther",
-      "sourceType": "panther",
-      "sourceIcon": "\ud83d\udcf0",
-      "link": "https://seapreppanther.org/11338/prep-life/living-the-magis-mrs-kramers-next-step-in-jesuit-education-and-leadership/",
-      "date_iso": "2026-06-02T03:13:06+00:00",
       "date": "Jun 2, 2026"
     }
   ]
