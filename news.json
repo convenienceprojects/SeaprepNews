@@ -1,8 +1,32 @@
 {
-  "updated": "2026-10-06T18:42:09.793074",
-  "updated_label": "October 6, 2026 at 6:42 PM",
+  "updated": "2026-10-07T19:08:39.921655",
+  "updated_label": "October 7, 2026 at 7:08 PM",
   "count": 10,
   "stories": [
+    {
+      "headline": "The Odyssey movie remains hot topic among Prep faculty",
+      "body": "1.6 billion dollars grossed and filmed in 70mm IMAX. Christopher Nolan\u2019s theatrical adaptation of the 3000-year-old poem, \u201cThe Odyssey\u201d, took the world by storm this summer. The film received rave reviews but as with any movie adaptation of a written work there were many discussions about whether the movie adapted the story well. These discussions...",
+      "byline": "Jackson Dierks, Managing Editor",
+      "category": "Entertainment",
+      "source": "The Seattle Prep Panther",
+      "sourceType": "panther",
+      "sourceIcon": "\ud83d\udcf0",
+      "link": "https://seapreppanther.org/11462/entertainment/the-odyssey-movie-remains-hot-topic-among-prep-faculty/",
+      "date_iso": "2026-10-06T19:53:31+00:00",
+      "date": "Oct 6, 2026"
+    },
+    {
+      "headline": "International soccer makes its mark in Seattle",
+      "body": "For a few weeks this summer, Seattle looked like a completely different city. Jerseys from countries around the world showed up on the same streets. Restaurants filled with languages you don\u2019t often hear. People from Australia, Egypt, Belgium, and everywhere in between proudly wore their countries across their chests, and strangers had something to talk...",
+      "byline": "Kate Smith, Staff Writer",
+      "category": "Athletics",
+      "source": "The Seattle Prep Panther",
+      "sourceType": "panther",
+      "sourceIcon": "\ud83d\udcf0",
+      "link": "https://seapreppanther.org/11481/sports/international-soccer-makes-its-mark-in-seattle/",
+      "date_iso": "2026-10-06T19:34:46+00:00",
+      "date": "Oct 6, 2026"
+    },
     {
       "headline": "Enticing Concerts Bring Energy to Seattle this Fall",
       "body": "",
@@ -97,30 +121,6 @@
       "sourceIcon": "\ud83d\udcf0",
       "link": "https://seapreppanther.org/11367/feature/is-senioritis-real-or-just-a-myth/",
       "date_iso": "2026-06-02T03:16:20+00:00",
-      "date": "Jun 2, 2026"
-    },
-    {
-      "headline": "A Major Decision",
-      "body": "By the time senior year rolls around, the question starts to follow you everywhere\u2014in the hallways, classrooms, even quiet moments at home. \u201cWhat are you going to major in?\u201d At first, it feels simple. A box to check. An answer to give relatives. But behind every response is something much bigger: years of small moments,...",
-      "byline": "Anjali Feider, Staff Writer",
-      "category": "Prep Life",
-      "source": "The Seattle Prep Panther",
-      "sourceType": "panther",
-      "sourceIcon": "\ud83d\udcf0",
-      "link": "https://seapreppanther.org/11334/prep-life/a-major-decision/",
-      "date_iso": "2026-06-02T03:16:02+00:00",
-      "date": "Jun 2, 2026"
-    },
-    {
-      "headline": "Seniors at Work",
-      "body": "Among the graduating senior class, there are a multitude of jobs that Seattle Prep students participate in outside the classroom which often go unnoticed. Whether during the school year or over the summer, Prep students have a significant role in the Seattle community through their jobs. Two Seattle Prep students who have taken their talents...",
-      "byline": "Andrew Arnold, Staff Writer",
-      "category": "Features",
-      "source": "The Seattle Prep Panther",
-      "sourceType": "panther",
-      "sourceIcon": "\ud83d\udcf0",
-      "link": "https://seapreppanther.org/11374/feature/seniors-at-work/",
-      "date_iso": "2026-06-02T03:15:24+00:00",
       "date": "Jun 2, 2026"
     }
   ]
