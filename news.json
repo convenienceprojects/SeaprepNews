@@ -1,8 +1,20 @@
 {
-  "updated": "2026-10-07T19:08:39.921655",
-  "updated_label": "October 7, 2026 at 7:08 PM",
+  "updated": "2026-10-08T19:04:53.028596",
+  "updated_label": "October 8, 2026 at 7:04 PM",
   "count": 10,
   "stories": [
+    {
+      "headline": "Personalities show in faculty fictional jobs",
+      "body": "Picture a quiet tea shop near the mountains or water. People sit around drinking tea, talking and telling stories. That is where Ms. Foster \u2014 a Mandarin teacher \u2014 imagines herself if she weren\u2019t teaching at Seattle Prep. Her answer might sound far removed from a classroom, but the people-centered nature of the job makes...",
+      "byline": "Annabelle Bowman, Staff Writer",
+      "category": "Prep Life",
+      "source": "The Seattle Prep Panther",
+      "sourceType": "panther",
+      "sourceIcon": "\ud83d\udcf0",
+      "link": "https://seapreppanther.org/11463/prep-life/personalities-show-in-faculty-fictional-jobs/",
+      "date_iso": "2026-10-07T20:44:39+00:00",
+      "date": "Oct 7, 2026"
+    },
     {
       "headline": "The Odyssey movie remains hot topic among Prep faculty",
       "body": "1.6 billion dollars grossed and filmed in 70mm IMAX. Christopher Nolan\u2019s theatrical adaptation of the 3000-year-old poem, \u201cThe Odyssey\u201d, took the world by storm this summer. The film received rave reviews but as with any movie adaptation of a written work there were many discussions about whether the movie adapted the story well. These discussions...",
@@ -109,18 +121,6 @@
       "sourceIcon": "\ud83d\udcf0",
       "link": "https://seapreppanther.org/11356/multimedia/graphics/what-is-the-cost-of-senior-year/",
       "date_iso": "2026-06-02T03:16:43+00:00",
-      "date": "Jun 2, 2026"
-    },
-    {
-      "headline": "Is Senioritis Real or Just a Myth?",
-      "body": "As the countdown towards the end of the school year begins, one class is always particularly eager to head into summer: the seniors. By the time college decisions are released and seniors have made their commitments, there tends to be a recurring habit. In what many students and teachers refer to as \u201cSenioritis,\u201d seniors start...",
-      "byline": "Dhani Widodo and Tucker Punke",
-      "category": "Features",
-      "source": "The Seattle Prep Panther",
-      "sourceType": "panther",
-      "sourceIcon": "\ud83d\udcf0",
-      "link": "https://seapreppanther.org/11367/feature/is-senioritis-real-or-just-a-myth/",
-      "date_iso": "2026-06-02T03:16:20+00:00",
       "date": "Jun 2, 2026"
     }
   ]
