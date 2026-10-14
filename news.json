@@ -1,8 +1,32 @@
 {
-  "updated": "2026-10-13T19:40:23.026622",
-  "updated_label": "October 13, 2026 at 7:40 PM",
+  "updated": "2026-10-14T17:41:21.592596",
+  "updated_label": "October 14, 2026 at 5:41 PM",
   "count": 10,
   "stories": [
+    {
+      "headline": "What exactly is the Sacrament of Confirmation?",
+      "body": "When I sat down to write this article, I had an incomplete knowledge of what I was actually writing about. I was planning on writing that my opinion on the matter was that confirmation was meant for teens in the church and that seventh grade was too young for people to be receiving the sacrament....",
+      "byline": "Katelyn Fredette, Editor-in-Chief",
+      "category": "Opinion",
+      "source": "The Seattle Prep Panther",
+      "sourceType": "panther",
+      "sourceIcon": "\ud83d\udcf0",
+      "link": "https://seapreppanther.org/11509/opinion/what-exactly-is-the-sacrament-of-confirmation/",
+      "date_iso": "2026-10-14T16:11:57+00:00",
+      "date": "Oct 14, 2026"
+    },
+    {
+      "headline": "A-Peek into APs",
+      "body": "Taking an AP class for the first time can feel a little like being thrown into the deep end \u2013 suddenly there\u2019s more homework, faster lessons, and a concerning number of people talking about the exam before it\u2019s even October. But before questioning every decision that led to that AP classroom, don\u2019t...",
+      "byline": "Kylie Barclay and Eleanor Dixon",
+      "category": "Prep Life",
+      "source": "The Seattle Prep Panther",
+      "sourceType": "panther",
+      "sourceIcon": "\ud83d\udcf0",
+      "link": "https://seapreppanther.org/11518/prep-life/a-peek-into-aps/",
+      "date_iso": "2026-10-14T16:07:53+00:00",
+      "date": "Oct 14, 2026"
+    },
     {
       "headline": "The \u201cF\u201d in FIG does not mean female",
       "body": "The first wave of the Feminist movement started in 1848. It\u2019s now 2026, and society is still struggling to grasp what the concept of Feminism really means. Walking into a meeting for the Feminist Interest Group (FIG), students are welcomed by a supportive, exciting group of people who are eager to share their passion and...",
@@ -97,30 +121,6 @@
       "sourceIcon": "\ud83d\udcf0",
       "link": "https://seapreppanther.org/11492/prep-life/how-link-crew-works-preps-community-building-program-enters-its-second-year/",
       "date_iso": "2026-10-09T16:15:01+00:00",
-      "date": "Oct 9, 2026"
-    },
-    {
-      "headline": "Unspoken rules at Prep: Should we keep them?",
-      "body": "When students first arrive at Seattle Prep, they quickly learn the formal expectations outlined in the student handbook, including the dress code, which building is which on their schedules and the school policies. However, some of the most prominent expectations are never written down. Instead, they are learned by simply observing others. Unwritten expectations shape...",
-      "byline": "Harper Hartinger, Staff Writer",
-      "category": "Opinion",
-      "source": "The Seattle Prep Panther",
-      "sourceType": "panther",
-      "sourceIcon": "\ud83d\udcf0",
-      "link": "https://seapreppanther.org/11491/opinion/unspoken-rules-at-prep-should-we-keep-them/",
-      "date_iso": "2026-10-09T16:00:48+00:00",
-      "date": "Oct 9, 2026"
-    },
-    {
-      "headline": "More than a game: The impact of Panther Pack and Sports Marketing",
-      "body": "As another season of Fall sports begins, Prep athletes are working extremely hard, but they are not the only ones who make Prep sports what they are. Panther Pack and Sports Marketing are working behind the scenes to create an exciting atmosphere around Prep sports. Football games are something every Prep student knows and loves....",
-      "byline": "Sasha Worner, Staff Writer",
-      "category": "Athletics",
-      "source": "The Seattle Prep Panther",
-      "sourceType": "panther",
-      "sourceIcon": "\ud83d\udcf0",
-      "link": "https://seapreppanther.org/11490/sports/more-than-a-game-the-impact-of-panther-pack-and-sports-marketing/",
-      "date_iso": "2026-10-09T15:53:05+00:00",
       "date": "Oct 9, 2026"
     }
   ]
