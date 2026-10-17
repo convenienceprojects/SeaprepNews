@@ -1,8 +1,20 @@
 {
-  "updated": "2026-10-16T17:06:04.316401",
-  "updated_label": "October 16, 2026 at 5:06 PM",
+  "updated": "2026-10-17T16:02:40.968722",
+  "updated_label": "October 17, 2026 at 4:02 PM",
   "count": 10,
   "stories": [
+    {
+      "headline": "Halloween Lookbook",
+      "body": "",
+      "byline": "Mirabelle Fan, Staff Writer",
+      "category": "News",
+      "source": "The Seattle Prep Panther",
+      "sourceType": "panther",
+      "sourceIcon": "\ud83d\udcf0",
+      "link": "https://seapreppanther.org/11525/multimedia/graphics/halloween-lookbook/",
+      "date_iso": "2026-10-16T20:58:29+00:00",
+      "date": "Oct 16, 2026"
+    },
     {
       "headline": "Man of La Mancha brings Spain to Seattle Prep stage",
       "body": "This year, the fall play for Seattle Prep is \u201cMan of La Mancha\u201d. \u201cMan of La Mancha\u201d is a musical about a man named Alonso Quijana, who renames himself Don Quixote. The play follows Quixote as he learns about reality, what it means to be noble, and working to inspire amid tribulations. This play takes...",
@@ -109,18 +121,6 @@
       "sourceIcon": "\ud83d\udcf0",
       "link": "https://seapreppanther.org/11474/sports/behind-the-hype-factors-that-shape-college-commitment/",
       "date_iso": "2026-10-13T15:45:24+00:00",
-      "date": "Oct 13, 2026"
-    },
-    {
-      "headline": "Best Places to Eat Off Campus",
-      "body": "",
-      "byline": "Victoria Rodrigo Dermody, Staff Writer",
-      "category": "News",
-      "source": "The Seattle Prep Panther",
-      "sourceType": "panther",
-      "sourceIcon": "\ud83d\udcf0",
-      "link": "https://seapreppanther.org/11514/multimedia/graphics/best-places-to-eat-off-campus/",
-      "date_iso": "2026-10-13T15:41:56+00:00",
       "date": "Oct 13, 2026"
     }
   ]
