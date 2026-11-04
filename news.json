@@ -1,8 +1,20 @@
 {
-  "updated": "2026-11-03T19:53:50.203701",
-  "updated_label": "November 3, 2026 at 7:53 PM",
+  "updated": "2026-11-04T20:10:21.843535",
+  "updated_label": "November 4, 2026 at 8:10 PM",
   "count": 10,
   "stories": [
+    {
+      "headline": "The mental reality behind recovery",
+      "body": "Many student-athletes have had an experience like this: you are at the peak of your sports season, ready to dive in and give it your all. Then, the unimaginable happens: injury. One small fumble, trip, misstep, and your dreams for the season are completely sidelined. You find yourself lost, upset, and unknowing of how things...",
+      "byline": "Kiki Punke, Staff Writer",
+      "category": "Athletics",
+      "source": "The Seattle Prep Panther",
+      "sourceType": "panther",
+      "sourceIcon": "\ud83d\udcf0",
+      "link": "https://seapreppanther.org/11674/sports/the-mental-reality-behind-recovery/",
+      "date_iso": "2026-11-04T18:31:28+00:00",
+      "date": "Nov 4, 2026"
+    },
     {
       "headline": "SNL\u2019s season kickoff shows promise",
       "body": "Live from New York it\u2019s Saturday night! That\u2019s right; \u201cSaturday Night Live\u201d has officially returned for its 52nd season already with several episodes hosted by celebrities such as Jalen Brunson, Dakota Johnson, and Shane Gillis. Whether you love it, hate it, or are somewhere in between, Prep students and teachers alike have various opinions on...",
@@ -110,18 +122,6 @@
       "link": "https://seapreppanther.org/11536/opinion/does-the-sat-measure-knowledge-or-is-it-just-a-number-for-college/",
       "date_iso": "2026-10-15T03:18:54+00:00",
       "date": "Oct 15, 2026"
-    },
-    {
-      "headline": "What exactly is the Sacrament of Confirmation?",
-      "body": "When I sat down to write this article, I had an incomplete knowledge of what I was actually writing about. I was planning on writing that my opinion on the matter was that confirmation was meant for teens in the church and that seventh grade was too young for people to be receiving the sacrament....",
-      "byline": "Katelyn Fredette, Editor-in-Chief",
-      "category": "Opinion",
-      "source": "The Seattle Prep Panther",
-      "sourceType": "panther",
-      "sourceIcon": "\ud83d\udcf0",
-      "link": "https://seapreppanther.org/11509/opinion/what-exactly-is-the-sacrament-of-confirmation/",
-      "date_iso": "2026-10-14T16:11:57+00:00",
-      "date": "Oct 14, 2026"
     }
   ]
 }
