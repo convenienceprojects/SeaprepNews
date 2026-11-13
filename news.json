@@ -1,8 +1,20 @@
 {
-  "updated": "2026-11-12T20:33:38.622706",
-  "updated_label": "November 12, 2026 at 8:33 PM",
+  "updated": "2026-11-13T20:10:44.834370",
+  "updated_label": "November 13, 2026 at 8:10 PM",
   "count": 10,
   "stories": [
+    {
+      "headline": "Corr crushes cross country state in historic win, Bazzi right behind",
+      "body": "Junior Elise Corr won the individual 3A State Cross Country title November 8th, and senior Hannah Bazzi ran a personal record in a standout day for Seattle Prep. Corr crossed the line in 18:06, 21 seconds ahead of second place and setting a school record for the course. Nearly 27 years after Megan Heuer (Johnson)...",
+      "byline": "Diego Perez, Editor-in-Chief",
+      "category": "Athletics",
+      "source": "The Seattle Prep Panther",
+      "sourceType": "panther",
+      "sourceIcon": "\ud83d\udcf0",
+      "link": "https://seapreppanther.org/11788/sports/corr-crushes-cross-country-state-in-historic-win-bazzi-right-behind/",
+      "date_iso": "2026-11-12T22:31:36+00:00",
+      "date": "Nov 12, 2026"
+    },
     {
       "headline": "Building Connections Across Cultures",
       "body": "For the past 16 years, Seattle Prep students have had the opportunity to experience German culture firsthand through the school\u2019s German exchange program. Frau Khouri started the program through a connection between her mother, who worked at the German school, and its principal. The partnership brings together students from two countries to learn from one...",
@@ -110,18 +122,6 @@
       "link": "https://seapreppanther.org/11667/sports/the-hardest-goodbye-seniors-ending-their-career-in-their-sport/",
       "date_iso": "2026-11-06T20:52:27+00:00",
       "date": "Nov 6, 2026"
-    },
-    {
-      "headline": "Inflation\u2019s impact on panthers",
-      "body": "Prices in Seattle have always been high compared to other places in the US, and even other countries. This is due to many reasons, from location to the 10.5% sales tax in Seattle. However, this has not been helped by the long lasting effect of Covid, which has caused prices to rise quicker in the...",
-      "byline": "Kellen Wilcox, Staff Writer",
-      "category": "Prep Life",
-      "source": "The Seattle Prep Panther",
-      "sourceType": "panther",
-      "sourceIcon": "\ud83d\udcf0",
-      "link": "https://seapreppanther.org/11701/prep-life/inflations-impact-on-panthers/",
-      "date_iso": "2026-11-05T17:04:57+00:00",
-      "date": "Nov 5, 2026"
     }
   ]
 }
